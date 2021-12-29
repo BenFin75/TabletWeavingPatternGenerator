@@ -22,3 +22,10 @@
         //previous
     //forward
         //same
+
+
+// add a bulk advance/retreat option eg. advance 4
+
+// add column left / add column right
+
+// premade patterns 
