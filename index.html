@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Tablet Weaving Pattern Maker</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Ben's Tablet Weaving Pattern Generator</h1>
+    </header>
+    <main>
+        <div class="cardContainer">
+            <div id="optionCard" class="optionCard">
+                <div class="turnDirection">
+                    <img class="optionDirectionSelection forward" src="./img/forwardTurn.png" alt="Forward Turn" >
+                </div>
+                <div class="advance">
+                    <input type="submit" value="Advance" class="advanceButton"style="height: 106px;width: 106px;">
+                </div>
+                <div class="retreat">
+                    <input type="submit" value="Retreat" class="retreatButton"style="height: 106px;width: 106px;">
+                </div>
+                <div class="addCol">
+                    <input type="submit" value="Add Column" class="addColButton" style="height: 106px;width: 106px;">
+                </div>
+                <div class="removeCol">
+                    <input type="submit" value="Remove Column" class="removeColButton" style="height: 106px;width: 106px;">
+                </div>
+                <div class="clear">
+                    <input type="submit" value="Clear" class="clearButton" style="height: 106px;width: 106px;">
+                </div>
+                <div class="toggleLabels">
+                    <input type="submit" value="Toggle Labels" class="toggleLabelsButton" style="height: 106px;width: 106px;">
+                </div>
+            </div>
+            <div id="rowCard" class="rowCard">
+                <div class='rowSpacer'></div>
+                <div class='rowNumbers'></div>
+            </div>
+            <div id="card1" class="card">
+                <div class="turnDirection">
+                    <img class="directionSelection forward" src="./img/forwardTurn.png" alt="Forward Turn" >
+                </div>
+                <div class="colorSelector">
+                    <label class="colorLabel">
+                        <input type="color" class="selection a" value="#FF0000">
+                        <span>A</span>
+                    </label>
+                    <label class="colorLabel">
+                        <input type="color" class="selection b" value="#00FF11">
+                        <span>B</span>
+                    </label>
+                    <label class="colorLabel">
+                        <input type="color" class="selection d" value="#0000FF">
+                        <span>D</span>
+                    </label>
+                    <label class="colorLabel">
+                        <input type="color" class="selection c" value="#FFFF00">
+                        <span>C</span>
+                    </label>
+                </div>
+                <div class="columnDiv">
+                    <h2 class="columnNumber 1" >1</h2>
+                </div>
+                <div class="pattern"></div>
+            </div>
+            <div id="card2" class="card">
+                <div class="turnDirection">
+                    <img class="directionSelection forward" src="./img/forwardTurn.png" alt="Forward Turn" >
+                </div>
+                <div class="colorSelector">
+                    <label class="colorLabel">
+                        <input type="color" class="selection a" value="#FF0000">
+                        <span>A</span>
+                    </label>
+                    <label class="colorLabel">
+                        <input type="color" class="selection b" value="#00FF11">
+                        <span>B</span>
+                    </label>
+                    <label class="colorLabel">
+                        <input type="color" class="selection d" value="#0000FF">
+                        <span>D</span>
+                    </label>
+                    <label class="colorLabel">
+                        <input type="color" class="selection c" value="#FFFF00">
+                        <span>C</span>
+                    </label>
+                </div>
+                <div class='columnDiv'>
+                    <h2 class="columnNumber 2" >2</h2>
+                </div>
+                <div class="pattern"></div>
+            </div>
+            <div id="card3" class="card">
+                <div class="turnDirection">
+                    <img class="directionSelection forward" src="./img/forwardTurn.png" alt="Forward Turn" >
+                </div>
+                <div class="colorSelector">
+                    <label class="colorLabel">
+                        <input type="color" class="selection a" value="#FF0000">
+                        <span>A</span>
+                    </label>
+                    <label class="colorLabel">
+                        <input type="color" class="selection b" value="#00FF11">
+                        <span>B</span>
+                    </label>
+                    <label class="colorLabel">
+                        <input type="color" class="selection d" value="#0000FF">
+                        <span>D</span>
+                    </label>
+                    <label class="colorLabel">
+                        <input type="color" class="selection c" value="#FFFF00">
+                        <span>C</span>
+                    </label>
+                </div>
+                <div class='columnDiv'>
+                    <h2 class="columnNumber 3" >3</h2>
+                </div>
+                <div class="pattern"></div>
+            </div>
+            <div id="card4" class="card">
+                <div class="turnDirection">
+                    <img class="directionSelection forward" src="./img/forwardTurn.png" alt="Forward Turn" >
+                </div>
+                <div class="colorSelector">
+                    <label class="colorLabel">
+                        <input type="color" class="selection a" value="#FF0000">
+                        <span>A</span>
+                    </label>
+                    <label class="colorLabel">
+                        <input type="color" class="selection b" value="#00FF11">
+                        <span>B</span>
+                    </label>
+                    <label class="colorLabel">
+                        <input type="color" class="selection d" value="#0000FF">
+                        <span>D</span>
+                    </label>
+                    <label class="colorLabel">
+                        <input type="color" class="selection c" value="#FFFF00">
+                        <span>C</span>
+                    </label>
+                </div>
+                <div class='columnDiv'>
+                    <h2 class="columnNumber 4" >4</h2>
+                </div>
+                <div class="pattern"></div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

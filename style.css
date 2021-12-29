@@ -1,0 +1,113 @@
+.highlight {
+  background-color: aqua;
+}
+
+.cardContainer {
+    display: flex;
+    align-items: stretch;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 108px;
+}
+
+.rowCard {
+  display: flex;
+  flex-direction: column;
+  max-width: 108px;
+  text-align: center;
+}
+
+.rowSpacer {
+  width: 25px;
+  height: 247px;
+}
+.rowNumber {
+  width: 25px;
+  height: 106px;
+  border: 2px solid;
+}
+
+.optionCard {
+    display: flex;
+    flex-direction: column;
+    max-width: 108px;
+}
+
+.columnDiv {
+  height: 25px;
+  border: 2px solid;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+}
+
+.colorSelector {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-left: 2px;
+    border-right: 2px;
+    border-style: solid;
+}
+
+.selection {
+    width: 54px;
+    height: 50px;
+    padding: 0;
+}
+
+input[type="color"] {
+  -webkit-appearance: none;
+  border: none;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.directionSelection {
+    max-width: 108px;
+    max-height: 108px;
+}
+
+.optionDirectionSelection {
+    max-width: 108px;
+    max-height: 108px;
+}
+
+.pattern {
+  background-color: #000;
+}
+
+.colorLabel {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.patternLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+label>span,
+label>input {
+  position: absolute;
+}
+
+label>span {
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  font-family: sans-serif;
+}
